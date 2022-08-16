@@ -1,3 +1,3 @@
 # Python-Scraper
 
-Testing the scraping capabilities of static and dynamic websites using Python to prepare for a future project.
+Testing the capabilities of BeautifulSoup in scraping static and dynamic websites using Python to prepare for a future project.
