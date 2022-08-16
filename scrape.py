@@ -29,6 +29,8 @@ python_job_elements = [h2_element.parent.parent.parent for h2_element in python_
 
 for job_element in python_job_elements:
     links = job_element.find_all("a")
+    link_url = job_element.find_all("a")[1]["href"]
+    print(f"Apply: {link_url}\n")
     for link in links:
         link_url = link["href"]
         print(f"Apply here: {link_url}\n")
